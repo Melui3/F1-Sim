@@ -1,0 +1,26 @@
+import { Driver } from '../constructors/Driver.js';
+
+export const drivers = [
+    new Driver('Verstappen', 'Max', 'Oracle Red Bull Racing', '33'),
+    new Driver('Hadjar', 'Isack', 'Oracle Red Bull Racing', 'TBC'),
+    new Driver('Russell', 'George', 'Mercedes-AMG Petronas Formula One Team', '63'),
+    new Driver('Antonelli', 'Andrea Kimi', 'Mercedes-AMG Petronas Formula One Team', '12'),
+    new Driver('Alonso', 'Fernando', 'Aston Martin Aramco Formula One Team', '14'),
+    new Driver('Stroll', 'Lance', 'Aston Martin Aramco Formula One Team', '18'),
+    new Driver('Gasly', 'Pierre', 'BWT Alpine F1 Team', '10'),
+    new Driver('TBC', 'TBC', 'BWT Alpine F1 Team', 'TBC'),
+    new Driver('Hülkenberg', 'Nico', 'Revolut Audi F1 Team', '27'),
+    new Driver('Bortoleto', 'Gabriel', 'Revolut Audi F1 Team', '5'),
+    new Driver('Bottas', 'Valtteri', 'Cadillac Formula 1 Team', '77'),
+    new Driver('Pérez', 'Sergio', 'Cadillac Formula 1 Team', '11'),
+    new Driver('Leclerc', 'Charles', 'Scuderia Ferrari HP', '16'),
+    new Driver('Hamilton', 'Lewis', 'Scuderia Ferrari HP', '44'),
+    new Driver('Bearman', 'Oliver', 'MoneyGram Haas F1 Team', '87'),
+    new Driver('Ocon', 'Esteban', 'MoneyGram Haas F1 Team', '31'),
+    new Driver('Norris', 'Lando', 'McLaren Mastercard Formula 1 Team', '4'),
+    new Driver('Piastri', 'Oscar', 'McLaren Mastercard Formula 1 Team', '81'),
+    new Driver('Albon', 'Alexander', 'Atlassian Williams Racing', '23'),
+    new Driver('Sainz', 'Carlos', 'Atlassian Williams Racing', '55'),
+    new Driver('Tsunoda', 'Yuki', 'Racing Bulls F1 Team', 'TBC'),
+    new Driver('Lawson', 'Liam', 'Racing Bulls F1 Team', 'TBC'),
+];
